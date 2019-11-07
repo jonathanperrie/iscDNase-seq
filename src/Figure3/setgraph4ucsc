@@ -1,0 +1,2 @@
+echo track type=bedGraph name=\"$1\" description=\"$1\" priority=$2>$4
+awk '{print $1" "$2" "$3" "$4}' $3>>$4
