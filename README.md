@@ -63,7 +63,7 @@ bash ~/src/Figure3/get_peaks.sh
 bash ~/src/Figure3/get_blacklist.sh 
 bash ~/src/Figure3/merge_peaks.sh
 ```
-###### 3d
+##### 3d
 ```
 bash ~/src/Figure3/make_ucsc_swarm.sh /data/perriejv/genome_len/hg18_chrlen.txt ucsc.swarm
 swarm -f ucsc.swarm -g 32 --gres=lscratch:64
