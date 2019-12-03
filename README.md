@@ -115,3 +115,10 @@ cd anno_peaks
 swarm -f anno.swarm -g 16 -t 2 --module homer
 python ~/src/Figure3/gene_expr.py
 ```
+
+## Software tools
+1. [chromVAR](https://github.com/GreenleafLab/chromVAR) (Schep et al., 2017)
+2. [HOMER](http://homer.ucsd.edu/homer/ngs/peakMotifs.html) (Heinz et al., 2010): https://hpc.nih.gov/apps/homer.html
+3. [CrossMap](http://crossmap.sourceforge.net) (Zhao et al., 2014): https://hpc.nih.gov/apps/crossmap.html
+4. [MACS2](https://github.com/taoliu/MACS) (Zhang et al., 2009): https://hpc.nih.gov/apps/macs.html
+
